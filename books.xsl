@@ -21,7 +21,7 @@
 <xsl:for-each select="/books/book">
 <tr>
 <td bgcolor="#FFAD18"><xsl:value-of select="title"/></td>
-<td bgcolor="#15317E" style="color:#D9D9D9 "><xsl:value-of select="author"/></td>
+<td bgcolor="#15317E" style="color:#D9D9D9 "> <b> <xsl:value-of select="author"/> </b> </td>
 <td bgcolor="#FFAD18" ><xsl:value-of select="genre"/></td>
 <td bgcolor="#FFAD18"><xsl:value-of select="copyright"/></td>
 <td bgcolor="#FFAD18"><xsl:value-of select="edition" /></td>
